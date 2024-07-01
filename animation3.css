@@ -1,0 +1,84 @@
+.bg{
+	height: 580px;
+	width: 100%;
+	background-image:url(step.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 0px;
+
+}
+
+.mari{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	bottom: 100px;
+	left:0px;
+	animation-name: mari;
+	animation-duration: 30s;
+	animation-iteration-count: 30;
+
+}
+
+@keyframes mari{
+
+	-90%{ position:absolute;bottom:100px;left:50px }
+	-94%{ position:absolute;bottom:100px;left:90px }
+	-95%{ position:absolute;bottom:100px;left:100px }
+	-100%{ position:absolute;bottom:155px;left:120px }
+
+
+       /*	-----*/
+
+	0%{ position:absolute;bottom:155px;left:150px }
+
+	4%{ position:absolute;bottom:155px;left:240px }
+
+	5%{ position:absolute;bottom:230px;left:240px }
+
+
+/*	------*/
+
+
+	9%{ position:absolute;bottom:230px;left:350px }
+
+	11%{ position:absolute;bottom:230px;left:390px }
+
+	14%{ position:absolute;bottom:295px;left:390px }
+
+/*	--*/
+
+     18%{position: absolute;bottom: 295px;left:420px}
+     24%{position: absolute;bottom: 295px;left:420px}
+     28%{position: absolute;bottom: 295px;left:480px}
+     30%{position: absolute;bottom: 295px;left:520px}
+     36%{position: absolute;bottom: 295px;left:555px}
+
+     38%{position: absolute;bottom: 360px;left:555px}
+
+     41%{position: absolute;bottom: 360px;left:600px}
+
+     46%{position: absolute;bottom: 360px;left:650px}
+     49%{position: absolute;bottom: 360px;left:680px}
+
+     54%{position: absolute;bottom: 440px;left:680px}
+     59%{position: absolute;bottom: 440px;left:750px}
+     63%{position: absolute;bottom: 440px;left:800px}
+     67%{position: absolute;bottom: 440px;left:830px}
+
+     71%{position: absolute;bottom: 440px;left:850px}
+
+
+     75%{position: absolute;bottom: 500px;left:850px}
+     79%{position: absolute;bottom: 500px;left:900px}
+     83%{position: absolute;bottom: 500px;left:950px}
+
+     87%{position: absolute;bottom: 500px;left:1000px}
+
+      92%{position: absolute;bottom: 570px;left:1000px}
+
+      95%{position: absolute;bottom: 570px;left:1100px}
+      100%{position: absolute;bottom: 570px;left:1150px}
+
+}
